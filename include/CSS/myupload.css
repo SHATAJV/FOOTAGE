@@ -1,0 +1,28 @@
+.mainbody {
+    text-align: center;
+}
+
+.button {
+    width: 200px;
+    height: auto;
+    background-color: #2f453b;
+    color: #fbfbfb;
+    margin-top: 10px;
+    border-radius: 7px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Add responsive styles using media queries */
+/* For smaller screens (up to 600px) */
+@media screen and (max-width: 600px) {
+    .mainbody {
+        margin: 50px; /* Adjust the margin for smaller screens */
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

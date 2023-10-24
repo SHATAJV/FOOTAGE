@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black; 
+  }
+  
+  /* Set the header background to white */
+  .main-1 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Set the rest of the page background to blue */
+  .main-content {
+    max-width: 80%;
+    margin: 3% 5% 7% 5%;
+    padding: 20px;
+    background-color: white; /* Blue background color */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  

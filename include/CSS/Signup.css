@@ -1,0 +1,253 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.form-login{
+    margin: 200px 400px 300px 300px;
+}
+.Link{
+    display: flex;
+    flex-direction: row;
+}
+.form-login .username {
+    width: 400PX;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.form-login .username input {
+    width:400px;
+}
+
+.form-login input {
+    display: block;
+    width: 390px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 7px;
+    background-color: #f7f7f7;
+}
+
+.form-login .button-send {
+    border-radius: 7px;
+    width: 400px;
+    margin-top: 5px;
+    background-color: #2f453b;
+    color: #f7f7f7;
+}
+.form-login .icon-sign {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .form-login .icon-sign-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .form-login .icon-sign-img img {
+    width: 20px;
+    padding-left: 10px;
+  }*/
+
+/* import font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+/* use Noto sans font for all elements  */
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* font weight and font family fo (Sign in)  */
+h1 {
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* remove decoration from links    */
+a {
+  text-decoration: none;
+}
+
+/* color of create new account text   */
+.create {
+  color: rgb(18, 165, 18);
+  margin-left: 5%;
+  display: flex;
+  width: 100% !important;
+}
+
+/*  the container of all the divs   */
+.form-login {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 15vh;
+}
+/*  it's in the description left div */
+.div-left {
+  width: 20%;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  line-height: 70px;
+}
+
+/*  the link to go back to homepage  */
+.back {
+  width: 100%;
+  height: fit-content;
+  color: black;
+  font-weight: bold;
+  line-height: 73px;
+}
+
+/*  right div  */
+.form-login .head {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+
+  justify-content: center;
+}
+/* div for new user and create account  */
+.form-login .Link {
+  display: flex;
+
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form-login .Link a {
+  padding-left: 15px;
+}
+
+.form-login form {
+  width: 400px;
+  height: 300px;
+  margin: 0;
+  padding-left: 0;
+}
+
+.input-name {
+  display: block;
+  width: 70%;
+  outline: none;
+  border: none;
+  height: 33px;
+  font-weight: bold;
+  border-radius: 12px;
+  padding-left: 10px;
+  margin-top: 5px;
+
+  background-color: #f7f7f7;
+}
+
+.input-lname {
+  display: block;
+  width: 70%;
+  outline: none;
+  border: none;
+  height: 33px;
+  font-weight: bold;
+  border-radius: 12px;
+  padding-left: 10px;
+  margin-top: 5px;
+
+  background-color: #f7f7f7;
+}
+
+.form-login .text-input {
+  display: block;
+  width: 70%;
+  outline: none;
+  border: none;
+  height: 33px;
+  font-weight: bold;
+  border-radius: 12px;
+  padding-left: 10px;
+  margin-top: 5px;
+
+  background-color: #f7f7f7;
+}
+.form-login .text-input:focus {
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+
+.form-login .keep-sign {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.form-login .button-send {
+  border-radius: 50px;
+  border: none;
+  width: 297px;
+  height: 33px;
+  background-color: #2f453b;
+  color: #f7f7f7;
+}
+.myspan {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+/* checkbox button   */
+#keep_signed {
+  width: 10%;
+  margin-left: 0;
+  padding-left: 0;
+
+  transform: translateX(-20%);
+}
+.hlines {
+  display: flex;
+  width: 297px;
+}
+.hlines hr {
+  width: 20%;
+  margin: auto;
+  height: 0;
+  color: rgba(128, 128, 128, 0.446);
+  border: 1px solid rgb(73, 72, 72);
+}
+.H6 {
+  width: 60%;
+}
+
+.form-login .icon-sign {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.form-login .icon-sign-img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 297px;
+}
+
+.form-login .icon-sign-img img {
+  width: 40px;
+  height: 40px;
+  padding-left: 10px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group input {
+  margin-bottom: 10px;
+}

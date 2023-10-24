@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .In-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .information {
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+  
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .contact {
+    margin-bottom: 20px;
+  }
+  
+  .adresse,
+  .telephone,
+  .email {
+    margin-bottom: 10px;
+  }
+  
+  .adresse img,
+  .telephone img,
+  .email img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button-send {
+    background-color: #2f453b;
+    color: #fbfbfb;
+    width: 490px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-send:hover {
+    background-color: #2b3d33;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+  iframe {
+    width: 600px;
+    height: 600px;
+    border: none;
+    margin-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #2f453b;
+    color: #fbfbfb;
+    padding: 20px;
+  }
+  icon-footer img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
