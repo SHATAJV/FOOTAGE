@@ -50,7 +50,7 @@ include("./include/db.php");
         <div class="publicité">
             <div class="img1">
                 <img src="./include/img/Images/img-1.jpg" alt="drone">
-                <a href="Drone_video.php">Drone videographie</a>
+                <a href="Drone_video.php">Dronevideographie</a>
                 <p>
                     we create both drone videographi and dronphotographi for use in visual communication and digital media
                 </p>
